@@ -6,12 +6,12 @@ An interactive app that analyzes code step-by-step using GPT-4o and LangGraph. I
 
 ## ✨ Features
 
-* 🔍 **Language Detection**
-* 🧠 **Code Functionality Summary**
-* 📄 **Auto-generated Documentation**
-* 📝 **Inline Code Commenting**
-* 💡 **Streamlit Frontend with Real-time Feedback**
-* 🌐 Powered by **LangChain**, **LangGraph**, and **OpenAI GPT-4o**
+* **Language Detection**
+* **Code Functionality Summary**
+* **Auto-generated Documentation**
+* **Inline Code Commenting**
+* **Streamlit Frontend with Real-time Feedback**
+* Powered by **LangChain**, **LangGraph**, and **OpenAI GPT-4o**
 
 ---
 
@@ -19,14 +19,16 @@ An interactive app that analyzes code step-by-step using GPT-4o and LangGraph. I
 
 > *Paste code and watch AI explain it live.*
 ![image](https://github.com/user-attachments/assets/a12d6f3e-54af-4767-add9-c0c9ea25dcef)
+---
 ![image](https://github.com/user-attachments/assets/8ad346df-df60-449c-a2e9-41765e7ae28f)
+---
 ![image](https://github.com/user-attachments/assets/8b83e0d8-0836-4bd8-acfc-2b15c5b3bfe8)
+---
 ![image](https://github.com/user-attachments/assets/a71be4e4-0212-4b39-85fa-9d1ea3209b0e)
-
 
 ---
 
-## 🧪 Example Use
+## Example Use
 
 ### Input:
 
@@ -47,7 +49,7 @@ def factorial(n):
 
 ---
 
-## 🚀 Getting Started
+## Try it out
 
 ### 1. Clone the repo
 
@@ -78,10 +80,10 @@ streamlit run app.py
 
 ---
 
-## 🧠 What I Learned
+## Project outcomes | Learnings
 
-* ✅ Building modular LLM workflows using `LangGraph`
-* ✅ Prompt engineering with LangChain's `PromptTemplate`
+* ✅ Building simple modular LLM workflows using `LangGraph`
+* ✅ Prompt handling with LangChain's `PromptTemplate`
 * ✅ Streaming step-by-step agent execution with `stream()`
 * ✅ Reusable node functions for flexible pipeline logic
 * ✅ Creating interactive Streamlit dashboards
@@ -99,7 +101,7 @@ streamlit run app.py
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```bash
 📦 code-understanding-agent
@@ -108,8 +110,27 @@ streamlit run app.py
 ┣ 📜 run_agent.py          # Optional CLI testing script
 ┣ 📜 requirements.txt
 ┣ 📜 .env.example
-┣ 📂 assets/                  # Screenshots / GIFs
 ```
 
 ---
+
+# Acknowledgements
+
+This project was inspired by the tutorial in [this blog post by Index.dev](https://www.index.dev/blog/build-ai-agent-guide).
+
+Special thanks to the authors for providing a clear and practical introduction to building AI agents using LangGraph, LangChain, and OpenAI models.
+
+---
+
+If you found this project helpful and want to learn more, check out:
+
+- [LangGraph Documentation](https://github.com/langchain-ai/langgraph)
+- [LangChain Framework](https://www.langchain.com/)
+- [Streamlit](https://streamlit.io/)
+- [OpenAI GPT-4o](https://platform.openai.com/)
+
+---
+
+Created by [Roshan-RB](https://github.com/Roshan-RB)
+
 
